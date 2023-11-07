@@ -1,3 +1,13 @@
+/*
+  TIME COMPLEXITY : O(N)
+  SPACE COMPLEXITY : O(N)
+
+  REMEMBER THAT FROM N / 2 TO N IN ARRAY IS ALREADY IS IN HEAP SO WE TRAVERSE FROM N / 2 - 1 TO 0
+  Approach:
+  we considered i'th element is largest element according to MAX heap and then we check it to left and right side in order to find max to current element if find then we swap it and 
+  than the we treaverse from largest to leaf and this process is continue for each i'th node
+
+*/
 import java.util.* ;
 import java.io.*; 
 import java.util.ArrayList;
