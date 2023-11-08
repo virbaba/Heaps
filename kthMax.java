@@ -4,6 +4,8 @@
 
     where K is the position (ordered by increasing value) of the element you need to find
 
+    Remember that when we want to find kth min element than we make MAX heap for k element and when we want to find kth max element than we make MIN heap for k element
+
     w
 */
 
