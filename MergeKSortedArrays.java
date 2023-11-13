@@ -4,6 +4,10 @@
   we remove peek element from priority queue which is small into all sub k array and we also track row and column .
   we add next column value  from the current row where the value is remove from heap.
   mean when we remove element from heap we have also row and column tracking for this element and then we add same row and col + 1 element and maintain also heap
+
+  TIME COMPLEXTIY : O(N*K LOGK)
+  SPACE COMPLEXITY : O(K)
+  
 */
 import java.util.* ;
 import java.io.*; 
